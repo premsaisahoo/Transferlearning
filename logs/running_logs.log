@@ -1,0 +1,23 @@
+[2022-05-19 15:14:46,324: INFO: 01_basemodel_creation]: 
+********************
+[2022-05-19 15:14:46,325: INFO: 01_basemodel_creation]: >>>>> stage creating base model started <<<<<
+[2022-05-19 15:14:46,333: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-05-19 15:14:46,333: ERROR: 01_basemodel_creation]: name 'params_path' is not defined
+Traceback (most recent call last):
+  File "src/01_basemodel_creation.py", line 67, in <module>
+    main(config_path=parsed_args.config)
+  File "src/01_basemodel_creation.py", line 24, in main
+    params = read_yaml(params_path)
+NameError: name 'params_path' is not defined
+[2022-05-19 15:15:38,255: INFO: 01_basemodel_creation]: 
+********************
+[2022-05-19 15:15:38,255: INFO: 01_basemodel_creation]: >>>>> stage creating base model started <<<<<
+[2022-05-19 15:15:38,257: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-05-19 15:15:38,919: INFO: 01_basemodel_creation]: >>>>> stage creating base model completed!<<<<<
+
+[2022-05-19 15:42:21,774: INFO: 01_basemodel_creation]: 
+********************
+[2022-05-19 15:42:21,774: INFO: 01_basemodel_creation]: >>>>> stage creating base model started <<<<<
+[2022-05-19 15:42:21,778: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-05-19 15:42:22,952: INFO: 01_basemodel_creation]: >>>>> stage creating base model completed!<<<<<
+
